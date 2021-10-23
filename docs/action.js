@@ -25,7 +25,7 @@ function movimiento() {
         divanio.innerText = "% del año "+getanio;
         // Anotación: padStart() se usa para que los números siempre tengan el mismo número de carácteres, si no es así completa con 0
         // Establece la fecha actual
-        divfecha.innerText = (getdiadelasemana).toString().padStart(2, 0)+" del "+(getmes).toString().padStart(2, 0)+" de "+(getanio).toString().padStart(4, 0);
+        divfecha.innerText = (getdia).toString().padStart(2, 0)+" del "+(getmes).toString().padStart(2, 0)+" de "+(getanio).toString().padStart(4, 0);
         // Establece la hora actual
         divhora.innerText = (gethora).toString().padStart(2, 0)+":"+(getminutos).toString().padStart(2, 0)+":"+(getsegundos).toString().padStart(2, 0) +":"+(getmilisegundos).toString().padStart(3, 0);
         // porcentaje de año transcurrido
