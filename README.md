@@ -2,7 +2,7 @@
 
 ¿Que porcentaje del año es?
 
-Probablemente nunca te lo hayas preguntado nunca.
+Probablemente nunca te lo hayas preguntado.
 
 Está página web te dirá este porcentaje mediante JavaScript:
 
